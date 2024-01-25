@@ -1,0 +1,28 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #b563fc;
+}
+
+.nav-item:hover {
+    background-color: rgba(58, 12, 119, 0.2);
+}
+
+.scrolled {
+    background-color: #83e7f48e; /* Change background color when scrolled */
+}
+
+.content {
+    padding-top: 50px; /* Adjust according to the height of your navigation menu */
+}
