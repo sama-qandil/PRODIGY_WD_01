@@ -3,7 +3,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: transparent;
+    
+    background: linear-gradient(rgb(208, 157, 235),rgb(152, 106, 236));
     z-index: 1000;
     transition: background-color 0.3s ease-in-out;
 }
@@ -12,7 +13,7 @@
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #b563fc;
+    color: #6c086cd7;
 }
 
 .nav-item:hover {
@@ -20,9 +21,9 @@
 }
 
 .scrolled {
-    background-color: #83e7f48e; /* Change background color when scrolled */
+    background-color: #f4c5838e; /* Change background color when scrolled */
 }
 
 .content {
-    padding-top: 50px; /* Adjust according to the height of your navigation menu */
+    padding-top: 50px;
 }
